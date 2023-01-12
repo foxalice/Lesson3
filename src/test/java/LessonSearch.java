@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class LessonSearch {
     @Test
-    void FindHoverAndClick() {
+    void findHoverAndClick() {
 
         open("https://github.com");
 
@@ -18,7 +18,7 @@ public class LessonSearch {
     }
 
     @Test
-    void DrugAndDropTest() {
+    void drugAndDropTest() {
 
         open("https://the-internet.herokuapp.com/drag_and_drop");
         sleep(5000);
